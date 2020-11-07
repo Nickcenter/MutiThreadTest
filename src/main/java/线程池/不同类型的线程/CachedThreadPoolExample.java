@@ -1,4 +1,4 @@
-package 线程池;
+package 线程池.不同类型的线程;
 
 import volitale.Singleton;
 
@@ -8,8 +8,9 @@ import java.util.concurrent.Executors;
 /**
  * Created by nick on 2018/10/3.
  */
-public class ThreadPoolExample1 {
+public class CachedThreadPoolExample {
     public static void main(String[] args) {
+
         ExecutorService exectorService= Executors.newCachedThreadPool();
         for(int i =0;i<10;i++){
             final  int index = i;

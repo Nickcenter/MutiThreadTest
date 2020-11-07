@@ -1,4 +1,4 @@
-package basicthread.继承Thread;
+package 线程池.启动线程.继承Thread;
 
 /**
  * Created by nick on 2018/10/3.
