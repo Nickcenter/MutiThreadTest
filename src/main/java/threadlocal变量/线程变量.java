@@ -1,4 +1,4 @@
-package threadlocal;
+package threadlocal变量;
 
 /**
  * Created by nick on 2018/10/4.
@@ -34,7 +34,7 @@ package threadlocal;
  return s;
  }
  */
-public class Test {
+public class 线程变量 {
     ThreadLocal<Long> longLocal = new ThreadLocal<Long>();
     ThreadLocal<String> stringLocal = new ThreadLocal<String>();
 
@@ -53,7 +53,7 @@ public class Test {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        final Test test = new Test();
+        final 线程变量 test = new 线程变量();
 
 
         test.set();

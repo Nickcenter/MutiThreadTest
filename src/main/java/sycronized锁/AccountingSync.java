@@ -1,4 +1,4 @@
-package sycronized;
+package sycronized锁;
 
 /**
  * Created by nick on 2018/10/4.

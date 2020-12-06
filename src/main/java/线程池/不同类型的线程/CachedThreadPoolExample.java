@@ -1,6 +1,6 @@
 package 线程池.不同类型的线程;
 
-import volitale.Singleton;
+import volitale关键字.Singleton;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
